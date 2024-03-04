@@ -1,1 +1,197 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Mendoza Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+          font-family: "Poppins", sans-serif;
+        }
+        .card {
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.968);
+        }
+        .card-title {
+            color: #040f1b;
+        }
+        @keyframes gradient {
+        0% {background: rgba(0, 0, 0, 0.950);}
+        33% {background: rgba(0, 0, 0, 0.900);}
+        66% {background: rgba(0, 0, 0, 0.850);}
+        100% {background: rgba(0, 0, 0, 0.950);}
+        }
+
+        body {
+        font-family: "Poppins", sans-serif;
+        font-size: large;
+        animation: gradient 8s infinite linear;
+        background-size: 200% 200%;
+        }
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: bold;
+        }
+        .bg-light {
+            background-color: #111212c3 !important; /* Replace #yourColor with your desired color */
+            color: white;
+        }
+        .no-margin {
+            margin: 0 !important;
+        }
+        .no-padding {
+            padding: 0 !important;
+        }
+        .css-image {
+        max-width: 50%; /* Adjust as needed */
+        height: auto;
+        }
+        .offcanvas-body a {
+            color: #111212c3 !important; /* Replace #yourColor with your desired color */
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-light py-4 mb-4 no-margin no-padding" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="mb-0"><em>Antonio Mendoza</em></h1>
+                    <h2>Developer Portfolio</h2>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/laptop.png" class="img-fluid rounded-circle" alt="laptop">
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark no-margin ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+            <h2 class="card-title">About Me</h2>
+            <p class="card-text">Hi, I am Antonio Mendoza and I am a junior software developer currently studying Software Development at Mohawk College. I enjoy using programming for the purposes of creating applications and functional websites.
+              My programming language of choice is C# and Javascript. Other than programming, I also enjoy music and have a passion to create software and plugins for DAWs (Digital Audio Workspace) software by applying the programming knowledge I have achieved during my time studying at Mohawk College.
+              This portfolio will showcase some of my projects and passion projects, alongside the skills I have acquired from working on these projects.</p>
+        </div>
+    </div>
+        <div class="card shadow mb-4" id="education">
+            <div class="card-body">
+                <h2 class="card-title">Education</h2>
+                <p class="card-text"><strong>Mohawk College [September 2022 - Present]</strong></p>
+                <p class="card-text">Computer Systems Technology - Software Development 559</p>
+                &nbsp;
+                <p class="card-text"><strong>Cathedral High School [September 2017 - June 2021]</strong></p>
+                <p class="card-text">Ontario Secondary School Diploma (OSSD)</p>
+            </div>
+        </div>
+        <div class="card shadow mb-4" id="skills">
+            <div class="card-body">
+                <h2 class="card-title">Summary of Skills</h2>
+                <p class="card-text">Frameworks & Libraries: Bootstrap, React</p>
+                <p class="card-text">Programming Languages: Java, Javascript, C#, PHP, Python, SQL </p>
+                <p class="card-text">Soft Skills: Strong Attention to Detail, Critical Thinker, Collaborator, Effective Learner, Reliable</p>
+            </div>
+        </div>
+        <div class="card shadow mb-4" id="projects">
+            <div class="card-body">
+                <h2 class="card-title">Projects</h2>
+                <p>
+                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#projectCollapse" aria-expanded="false" aria-controls="projectCollapse">
+                        Show Projects
+                    </button>
+                </p>
+                <div class="collapse" id="projectCollapse">
+                    <div class="card card-body">
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#project1" aria-expanded="false" aria-controls="project1">
+                          “Dodge the Raindrops!” Web Video Game                                                
+                        </button>
+                        <div class="collapse" id="project1">
+                            <div class="card card-body">
+                              Created a web application video game using JavaScript, HTML, and CSS named “Dodge the Raindrops!” where the user must use the keyboard arrow keys to avoid touching a raindrop object, and keeps track of how many objects they have dodged. Implemented logic for collisions, keyboard movement, score count, random speed for individual raindrops.
+                            </div>
+                            <img src="images/photo1.jpg" class="img-fluid css-image" alt="Video Game">
+                        </div>
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#project2" aria-expanded="false" aria-controls="project2">
+                          Media Collection Console App .NET 
+                        </button>
+                        <div class="collapse" id="project2">
+                            <div class="card card-body">
+                              Created a C# .NET Console app where a text file is read into the program which contains media and its corresponding information, such as song name, book title, or a movie name with its year of release and author or artist name. Program is highly modularized implementing course concepts such as encapsulation, polymorphism, inheritance, file reading and interfaces. Implemented logic for selections to list all songs, movies or books in alphabetical order. Implemented an algorithm to search through all media by the user’s specific string, which will then only list the options which match closely to the string inputted.
+                            </div>
+                            <img src="images/photo2.jpg" class="img-fluid css-image" alt="Project">
+                        </div>
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#project3" aria-expanded="false" aria-controls="project3">
+                          Java Quiz Game 
+                        </button>
+                        <div class="collapse" id="project3">
+                            <div class="card card-body">
+                              Used Java to create a Windows GUI application game where user inputs a guess for questions that are about Java. . The program had the functionality to keep score of the users correct answers or ends the test if they answered over 3 incorrect answers. Was given the opportunity to submit the assignment to be showcased for the Mohawk College open house for new students interested in Computer Systems Technology programs. 
+                            </div>
+                            <img src="images/photo3.jpg" class="img-fluid css-image" alt="Project">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card shadow mb-4" id="resume">
+            <div class="card-body">
+                <h2 class="card-title">Resume</h2>
+                <p class="card-text">Placeholder for your resume.</p>
+            </div>
+        </div>
+        <div class="card shadow mb-4" id="contact">
+            <div class="card-body">
+                <h2 class="card-title">Contact Information</h2>
+                <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContact" aria-controls="offcanvasContact">Show Contact Information</button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasContact" aria-labelledby="offcanvasContactLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasContactLabel">Contact Information</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <p>
+                        Phone: <a href="tel:+9058659181">+1 (905)-865-9181</a><br>
+                        Email: <a href="antonio.mendoza1@mohawkcollege.ca">antonio.mendoza1@mohawkcollege.ca</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
