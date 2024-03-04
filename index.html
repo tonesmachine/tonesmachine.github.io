@@ -10,9 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
-        body {
-          font-family: "Poppins", sans-serif;
-        }
         .card {
             border-radius: 15px;
             background-color: rgba(255, 255, 255, 0.968);
@@ -21,17 +18,16 @@
             color: #040f1b;
         }
         @keyframes gradient {
-        0% {background: rgba(0, 0, 0, 0.950);}
-        33% {background: rgba(0, 0, 0, 0.900);}
-        66% {background: rgba(0, 0, 0, 0.850);}
-        100% {background: rgba(0, 0, 0, 0.950);}
+            0% {background: rgba(0, 0, 0, 0.950);}
+            33% {background: rgba(0, 0, 0, 0.900);}
+            66% {background: rgba(0, 0, 0, 0.850);}
+            100% {background: rgba(0, 0, 0, 0.950);}
         }
-
         body {
-        font-family: "Poppins", sans-serif;
-        font-size: large;
-        animation: gradient 8s infinite linear;
-        background-size: 200% 200%;
+            font-family: "Poppins", sans-serif;
+            font-size: large;
+            animation: gradient 8s infinite linear;
+            background-size: 200% 200%;
         }
         .poppins-regular {
             font-family: "Poppins", sans-serif;
@@ -39,7 +35,7 @@
             font-style: bold;
         }
         .bg-light {
-            background-color: #111212c3 !important; /* Replace #yourColor with your desired color */
+            background-color: #111212c3 !important; 
             color: white;
         }
         .no-margin {
@@ -49,11 +45,11 @@
             padding: 0 !important;
         }
         .css-image {
-        max-width: 50%; /* Adjust as needed */
-        height: auto;
+            max-width: 50%; 
+            height: auto;
         }
         .offcanvas-body a {
-            color: #111212c3 !important; /* Replace #yourColor with your desired color */
+            color: #111212c3 !important; 
         }
     </style>
 </head>
@@ -64,6 +60,7 @@
                 <div class="col-lg-8">
                     <h1 class="mb-0"><em>Antonio Mendoza</em></h1>
                     <h2>Developer Portfolio</h2>
+                    <a href="https://github.com/tonesmachine" target="_blank" style="color: white;">Github</a>
                 </div>
                 <div class="col-lg-2">
                     <img src="images/laptop.png" class="img-fluid rounded-circle" alt="laptop">
@@ -122,8 +119,8 @@
         <div class="card shadow mb-4" id="skills">
             <div class="card-body">
                 <h2 class="card-title">Summary of Skills</h2>
-                <p class="card-text">Frameworks & Libraries: Bootstrap, React</p>
-                <p class="card-text">Programming Languages: Java, Javascript, C#, PHP, Python, SQL </p>
+                <p class="card-text">Frameworks & Libraries: Bootstrap, React, ASP.NET</p>
+                <p class="card-text">Programming Languages: Java, Javascript, C#, PHP, Python, SQL, Bash </p>
                 <p class="card-text">Soft Skills: Strong Attention to Detail, Critical Thinker, Collaborator, Effective Learner, Reliable</p>
             </div>
         </div>
@@ -168,12 +165,13 @@
                 </div>
             </div>
         </div>
-        <div class="card shadow mb-4" id="resume">
-            <div class="card-body">
-                <h2 class="card-title">Resume</h2>
-                <p class="card-text">Placeholder for your resume.</p>
-            </div>
-        </div>
+        <div class="card mb-4">
+          <div class="card-body">
+              <h2 class="card-title">Resume</h2>
+              <p class="card-text">Click the button to download a copy of my resume.</p>
+              <a href="files/Resume_AntonioMendoza_pdf.pdf" target="_blank" download class="btn btn-dark">Download Resume</a>
+          </div>
+      </div>
         <div class="card shadow mb-4" id="contact">
             <div class="card-body">
                 <h2 class="card-title">Contact Information</h2>
@@ -184,7 +182,7 @@
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                      <p>
+                    <p>
                         Phone: <a href="tel:+9058659181">+1 (905)-865-9181</a><br>
                         Email: <a href="antonio.mendoza1@mohawkcollege.ca">antonio.mendoza1@mohawkcollege.ca</a>
                     </p>
